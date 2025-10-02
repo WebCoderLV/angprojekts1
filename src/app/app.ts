@@ -37,8 +37,6 @@ signalsNr3 = computed(() => this.skaitlisSignals() + this.skaitlisSignals2());
   
   }
 
-
-
   pogasKliks() {
     this.skaitlisSignals.update(value => value + 1);
 }
